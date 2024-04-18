@@ -1,6 +1,7 @@
 .container {
     margin: 30px;
     max-width: 800px;
+    height: 710px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -13,54 +14,70 @@
 }
 
 .header {
-    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     grid-area: 1 / 1 / 2 / 2;
     color: #fff;
     background-color: black;
 }
 
 .menu {
-    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     grid-area: 1 / 2 / 2 / 5;
     color: #fff;
     background-color: red;
 }
 
 .hero {
-    padding: 115px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     grid-area: 2 / 1 / 7 / 5;
     color: #fff;
     background-color: blue;
 }
 
 .main {
-    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     grid-area: 7 / 1 / 9 / 3;
     color: #fff;
     background-color: navy;
 }
 
 .none {
-    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     grid-area: -5 / -3 / -3 / -2;
     color: #fff;
     background-color: white;
 }
 
 .image {
-    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     grid-area: -5 / -2 / -4 / -2;
     background-color: lightgreen;
 }
 
 .extra {
-    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     grid-area: -4 / -2 / -3 / -1;
     background-color: darkgreen;
 }
 
 .banner {
-    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     grid-area: -3 / 1 / -1 / -1;
     background-color: yellow;
 }
@@ -73,22 +90,18 @@
 
 @media (max-width: 770px) {
     .header {
-        padding: 35px 0;
         grid-area: 1 / 1 / 2 / 5;
     }
     
     .menu {
         grid-area: 5 / 1 / -2 / -4;
-        padding: 215px 0;
     }
     
     .hero {
-        padding: 125px 0;
         grid-area: 2 / 1 / 5 / 5;
     }
     
     .main {
-        padding: 80px 0;
         grid-area: 5 / 2 / 7 / 5;
     }
     
@@ -97,39 +110,32 @@
     }
     
     .image {
-        padding: 35px 0;
         grid-area: 9 / 4 / -2 / -1;
     }
     
     .extra {
-        padding: 35px 0;
         grid-area: 9 / 2 / 10 / 4;
     }
     
     .banner {
-        padding: 80px 0;
         grid-area: 7 / 2 / 9 / 5;
     }
 }
 
 @media (max-width: 440px) {
     .header {
-        padding: 15px;
         grid-area: 1 / 1 / 2 / 5;
     }
     
     .menu {
-        padding: 15px;
         grid-area: 2 / 1 / 3 / 5;
     }
     
     .hero {
-        padding: 40px;
         grid-area: 3 / 1 / 5 / 5;
     }
     
     .main {
-        padding: 40px;
         grid-area: 5 / 1 / 7 / 5;
     }
     
@@ -138,17 +144,14 @@
     }
     
     .image {
-        padding: 15px;
         grid-area: 9 / 1 / 10 / 5;
     }
     
     .extra {
-        padding: 15px;
         grid-area: 8 / 1 / 9 / 5;
     }
     
     .banner {
-        padding: 15px;
         grid-area: 7 / 1 / 8 / 5;
     }
 }
